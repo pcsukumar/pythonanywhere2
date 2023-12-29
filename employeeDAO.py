@@ -1,7 +1,7 @@
 #Connect to employee database
 
 import mysql.connector as connector
-import dbconfig_template as cfg
+import dbconfig as cfg
 class EmployeeDAO:
     connection=""
     cursor =''
