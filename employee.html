@@ -220,7 +220,7 @@
         //var car = {"reg":"12 D 1234","make":"Fiat","model":"Punto","price":3000}
         console.log(JSON.stringify(employee));
         $.ajax({
-            "url": "/employees",
+            "url": "/employees/",
             "method":"POST",
             "data":JSON.stringify(employee),
             "dataType": "JSON",
